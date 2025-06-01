@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cEd0f9QKfl8=",
+  "dgSpecHash": "9nRj4rWMjQY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\GustaPC\\Desktop\\Formação Microsserviços (ALURA)\\Microsserviços e .NET6 - Implementando a comunicação\\microservices-dotnet\\2461-microservices-dotnet-Ini\\ItemService\\ItemService.csproj",
+  "projectFilePath": "C:\\Users\\GustaPC\\Desktop\\Formação Microsserviços (ALURA)\\Microsserviços e .NET6 - Implementando a comunicação\\microservices-dotnet\\ItemService\\ItemService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GustaPC\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\GustaPC\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

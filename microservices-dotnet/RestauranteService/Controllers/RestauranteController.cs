@@ -17,7 +17,8 @@ public class RestauranteController : ControllerBase
 
     public RestauranteController(
         IRestauranteRepository repository,
-        IMapper mapper, IItemServiceHttpClient itemServiceHttpClient)
+        IMapper mapper,
+        IItemServiceHttpClient itemServiceHttpClient)
     {
         _repository = repository;
         _mapper = mapper;
@@ -53,7 +54,7 @@ public class RestauranteController : ControllerBase
         _repository.SaveChanges();
 
         var restauranteReadDto = _mapper.Map<RestauranteReadDto>(restaurante);
-
+        
         _itemServiceHttpClient.EnviaRestauranteParaItemService(restauranteReadDto);
 
 

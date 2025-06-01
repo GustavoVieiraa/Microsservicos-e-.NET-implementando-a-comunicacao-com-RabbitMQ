@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GustaPC\\Desktop\\Formação Microsserviços (ALURA)\\Microsserviços e .NET6 - Implementando a comunicação\\microservices-dotnet\\2461-microservices-dotnet-Ini\\RestauranteService\\RestauranteService.csproj": {}
+    "C:\\Users\\GustaPC\\Desktop\\Formação Microsserviços (ALURA)\\Microsserviços e .NET6 - Implementando a comunicação\\microservices-dotnet\\RestauranteService\\RestauranteService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GustaPC\\Desktop\\Formação Microsserviços (ALURA)\\Microsserviços e .NET6 - Implementando a comunicação\\microservices-dotnet\\2461-microservices-dotnet-Ini\\RestauranteService\\RestauranteService.csproj": {
+    "C:\\Users\\GustaPC\\Desktop\\Formação Microsserviços (ALURA)\\Microsserviços e .NET6 - Implementando a comunicação\\microservices-dotnet\\RestauranteService\\RestauranteService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GustaPC\\Desktop\\Formação Microsserviços (ALURA)\\Microsserviços e .NET6 - Implementando a comunicação\\microservices-dotnet\\2461-microservices-dotnet-Ini\\RestauranteService\\RestauranteService.csproj",
+        "projectUniqueName": "C:\\Users\\GustaPC\\Desktop\\Formação Microsserviços (ALURA)\\Microsserviços e .NET6 - Implementando a comunicação\\microservices-dotnet\\RestauranteService\\RestauranteService.csproj",
         "projectName": "RestauranteService",
-        "projectPath": "C:\\Users\\GustaPC\\Desktop\\Formação Microsserviços (ALURA)\\Microsserviços e .NET6 - Implementando a comunicação\\microservices-dotnet\\2461-microservices-dotnet-Ini\\RestauranteService\\RestauranteService.csproj",
+        "projectPath": "C:\\Users\\GustaPC\\Desktop\\Formação Microsserviços (ALURA)\\Microsserviços e .NET6 - Implementando a comunicação\\microservices-dotnet\\RestauranteService\\RestauranteService.csproj",
         "packagesPath": "C:\\Users\\GustaPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GustaPC\\Desktop\\Formação Microsserviços (ALURA)\\Microsserviços e .NET6 - Implementando a comunicação\\microservices-dotnet\\2461-microservices-dotnet-Ini\\RestauranteService\\obj\\",
+        "outputPath": "C:\\Users\\GustaPC\\Desktop\\Formação Microsserviços (ALURA)\\Microsserviços e .NET6 - Implementando a comunicação\\microservices-dotnet\\RestauranteService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
