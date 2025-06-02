@@ -21,7 +21,7 @@
       </td>
     </tr>
   </table>
-  <h1>Microsserviços e .NET6: implementando a comunicação 🧩</h1>
+  <h1>Microsserviços e .NET: implementando a comunicação com RabbitMQ 🧩</h1>
 </div>
 <p align="right">
   <img loading="lazy" src="https://img.shields.io/badge/CARGA_HORARIA-8_HORAS-blue?style=for-the-badge"/>
