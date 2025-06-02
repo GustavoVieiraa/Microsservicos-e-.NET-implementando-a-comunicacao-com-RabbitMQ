@@ -29,7 +29,7 @@
 </p>
 
 <div>
-  <h2>Resumo técnico do curso:</h2>
+  <h1>Resumo técnico do curso:</h1>
   <h3>Exploração do projeto e envio de requisições HTTP, incluindo serialização e recebimento de dados.</h3>
   <h3>Implementação prática do método <code>PostAsync()</code> para comunicação entre serviços.</h3>
   <h3>Introdução à containerização de aplicações .NET com Docker, destacando benefícios, preparação, criação de imagens e análise de Dockerfiles.</h3>
@@ -41,6 +41,21 @@
 </div>
 
 <div align="center">
-  <h2>Diagrama de fluxo da aplicação (Prática): </h2>
-  <img loading="lazy"  src="">
+  <h1>Prática do curso: </h1>
+  
+  <h3>Diagrama de fluxo da aplicação: </h3>
+  <img loading="lazy"  src="https://raw.githubusercontent.com/GustavoVieiraa/Microsservicos-e-.NET6-implementando-a-comunicacao/refs/heads/main/archives/FluxogramaDoProjeto.png">
+
+  <h3>Containers rodando no Docker (microsserviços)  </h3>
+  <img loading="lazy"  src="https://raw.githubusercontent.com/GustavoVieiraa/Microsservicos-e-.NET6-implementando-a-comunicacao/refs/heads/main/archives/MicroservicosRodandoDocker.png">
+
+  <h3>Estrutura das aplicações (serviços):  </h3>
+  <img loading="lazy"  src="https://raw.githubusercontent.com/GustavoVieiraa/Microsservicos-e-.NET6-implementando-a-comunicacao/refs/heads/main/archives/Services.png">
+
+  <h3>Swagger da aplicação com a documentação do resultado:  </h3>
+  <div>
+    <img loading="lazy" height="256"  src="https://raw.githubusercontent.com/GustavoVieiraa/Microsservicos-e-.NET6-implementando-a-comunicacao/refs/heads/main/archives/ItemServiceGet.png">
+    <img loading="lazy" height="256"  src="https://raw.githubusercontent.com/GustavoVieiraa/Microsservicos-e-.NET6-implementando-a-comunicacao/refs/heads/main/archives/RestauranteServiceGet.png">
+    <img loading="lazy" height="256"  src="https://raw.githubusercontent.com/GustavoVieiraa/Microsservicos-e-.NET6-implementando-a-comunicacao/refs/heads/main/archives/RestauranteServicePost.png">
+  </div>
 </div>
