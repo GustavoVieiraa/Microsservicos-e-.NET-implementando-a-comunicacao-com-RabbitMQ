@@ -13,13 +13,14 @@ namespace ItemService.RabbitMqClient
         private IModel _channel;
         private IProcessaEvento _processaEvento;
 
-        public RabbitMqSubscriber(IConfiguration configuration)
+        public RabbitMqSubscriber(IConfiguration configuration, IProcessaEvento processaEvento)
         {
             _configuration = configuration;
             _connection = new ConnectionFactory()
             {
-                HostName = "localhost",
-                Port = 8002
+                HostName = _configuration
+                ["RabbitMqHost"],
+                Port = Int32.Parse(_configuration["RabbitMqPort"])
             }.CreateConnection();
 
             _channel = _connection.CreateModel();
@@ -30,6 +31,8 @@ namespace ItemService.RabbitMqClient
 
             _channel.QueueBind(queue: _nomeDaFila, exchange: "trigger",
                 routingKey: "");
+
+            _processaEvento = processaEvento;
         }
 
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
